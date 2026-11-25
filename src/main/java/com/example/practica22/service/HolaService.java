@@ -5,9 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 
-
-
-@RestController 
+@RestController
 @RequestMapping("/api")
 public class HolaService {
 
@@ -15,6 +13,4 @@ public class HolaService {
     public ResponseEntity<?> hola() {
         return ResponseEntity.ok("holaMundo");
     }
-    
-
 }
